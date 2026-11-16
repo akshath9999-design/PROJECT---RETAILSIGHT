@@ -1,0 +1,49 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# CatBoost and ML artifacts
+catboost_info/
+
+# Large raw dataset archives (downloadable automatically via src/preprocessing/download_data.py)
+data/raw/online_retail.zip
+data/raw/Online Retail.xlsx
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

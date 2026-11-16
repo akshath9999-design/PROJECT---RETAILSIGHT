@@ -1,0 +1,37 @@
+{
+    "best_classifier_name": "LogisticRegression",
+    "feature_columns": [
+        "Lag_1",
+        "Lag_2",
+        "Lag_7",
+        "Lag_14",
+        "Rolling_Mean_7",
+        "Rolling_Std_7",
+        "Rolling_Mean_14",
+        "Rolling_Mean_28",
+        "Zero_Demand_Streak",
+        "Sales_Frequency_14",
+        "Demand_CV_28",
+        "AvgPrice",
+        "DayOfWeek",
+        "Month",
+        "IsWeekend",
+        "Simulated_Stock"
+    ],
+    "metrics": {
+        "Model": "LogisticRegression",
+        "Regime": "After SMOTE",
+        "Accuracy": 0.9891025641025641,
+        "Balanced_Accuracy": 0.9913261979821694,
+        "Macro_F1": 0.9883567904543785,
+        "Weighted_F1": 0.9891166758772763,
+        "Macro_Recall": 0.9913261979821694,
+        "Macro_Precision": 0.9855172266409619,
+        "Stockout_Recall": 0.9976825028968713,
+        "Stockout_F1": 0.9862542955326461,
+        "Overstock_Recall": 0.9846368715083799,
+        "Overstock_F1": 0.9914217409647026,
+        "Normal_Recall": 0.991659219541257,
+        "Normal_F1": 0.9873943348657868
+    }
+}

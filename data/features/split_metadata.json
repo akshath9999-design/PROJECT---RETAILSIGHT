@@ -1,0 +1,46 @@
+{
+    "total_records": 51900,
+    "train_records": 36300,
+    "val_records": 7800,
+    "test_records": 7800,
+    "train_date_range": [
+        "2010-12-29",
+        "2011-08-27"
+    ],
+    "val_date_range": [
+        "2011-08-28",
+        "2011-10-18"
+    ],
+    "test_date_range": [
+        "2011-10-19",
+        "2011-12-09"
+    ],
+    "num_skus": 150,
+    "feature_columns": [
+        "Lag_1",
+        "Lag_2",
+        "Lag_3",
+        "Lag_7",
+        "Lag_14",
+        "Lag_28",
+        "Rolling_Mean_7",
+        "Rolling_Std_7",
+        "Rolling_Max_7",
+        "Rolling_Min_7",
+        "Rolling_Mean_14",
+        "Rolling_Std_14",
+        "Rolling_Mean_28",
+        "Rolling_Std_28",
+        "Zero_Demand_Streak",
+        "Sales_Frequency_14",
+        "Demand_CV_28",
+        "AvgPrice",
+        "DayOfWeek",
+        "DayOfMonth",
+        "Month",
+        "Quarter",
+        "IsWeekend",
+        "DayOfYear_Sin",
+        "DayOfYear_Cos"
+    ]
+}

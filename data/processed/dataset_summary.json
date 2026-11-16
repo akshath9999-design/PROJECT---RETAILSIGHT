@@ -1,0 +1,19 @@
+{
+    "dataset_name": "UCI Online Retail Cleaned",
+    "raw_record_count": 541909,
+    "cleaned_record_count": 527447,
+    "meets_10k_requirement": true,
+    "unique_skus": 3903,
+    "unique_invoices": 19688,
+    "unique_customers": 4320,
+    "date_range": [
+        "2010-12-01",
+        "2011-12-09"
+    ],
+    "total_revenue": 9639140.400000002,
+    "total_units_sold": 5131655,
+    "average_order_value": 489.59469727752946,
+    "cancellations_filtered": 9288,
+    "non_product_records_filtered": 2190,
+    "invalid_numeric_records_filtered": 2501
+}
